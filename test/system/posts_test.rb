@@ -15,7 +15,6 @@ class PostsTest < ApplicationSystemTestCase
     click_on "New Post"
 
     fill_in "Body", with: @post.body
-    fill_in "Files", with: @post.files
     fill_in "Title", with: @post.title
     click_on "Create Post"
 
@@ -28,7 +27,6 @@ class PostsTest < ApplicationSystemTestCase
     click_on "Edit", match: :first
 
     fill_in "Body", with: @post.body
-    fill_in "Files", with: @post.files
     fill_in "Title", with: @post.title
     click_on "Update Post"
 
