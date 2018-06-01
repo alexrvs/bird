@@ -5,3 +5,7 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+Post.create(title: 'Apple', body: 'Apple test body', files: 'imgo-backup.jpg')
+Post.create(title: 'Orange', body: 'Orange test body', files: 'imgo-backup.jpg')
+Post.create(title: 'Pineapple', body: 'Pineapple test body', files: 'imgo-backup.jpg')
+Post.create(title: 'Marble cake', body: 'Marble cake test body', files: 'imgo-backup.jpg')
